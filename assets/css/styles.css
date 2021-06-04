@@ -1,0 +1,33 @@
+
+
+@media (min-width: 360px) {
+  #titleHeader {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 576px) {
+  #titleHeader {
+    font-size: 60px;
+  }
+}
+
+.icon-envelope:hover {
+  opacity: 0.9;
+}
+
+.footer-basic {
+  padding: 40px 0;
+  background-color: #ffffff;
+  color: #4b4c4d;
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
+
+
