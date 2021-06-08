@@ -180,13 +180,13 @@ button {
   }
 }
 
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
   #titleHeader {
     margin-left: 143px;
     font-size: 40px;
     width: 300px;
   }
-}
+} */
 
 @media (min-width: 300px) {
   #titleHeader {
