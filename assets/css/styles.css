@@ -252,7 +252,7 @@ button {
   }
 }
 
-@media (max-width:300px, max-width:567px) {
+@media (max-width:300px, max-width:576px) {
   .copyright {
     display: none;
   }
