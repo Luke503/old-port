@@ -256,7 +256,7 @@ button {
   }
 }
 
-@media (max-width:300px, max-width:576px) {
+@media (max-width:300px) {
   .copyright {
     display: none;
   }
