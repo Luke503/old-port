@@ -176,14 +176,6 @@
   }
 }
 
-@media (min-width: 767px) {
-  #titleHeader {
-    width: 200px;
-    font-size: 50px;
-    text-align: left;
-    margin-left: 116px;
-  }
-}
 
 @media (min-width: 300px) {
   #titleHeader {
@@ -193,6 +185,13 @@
   }
 }
 
+@media (min-width: 768px) {
+  #titleHeader {
+    width: 230px;
+    font-size: 50px;
+    text-align: left;
+    margin-left: 116px;
+  }
 
 .social-icons {
   color: #d1d1d1;
