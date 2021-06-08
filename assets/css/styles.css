@@ -178,11 +178,12 @@
   }
 }
 
-@media (min-width: 300px) {
+@media (min-width: 768px) {
   #titleHeader {
-    margin-left: 75px;
-    width: 165px;
-    font-size: 35px;
+    width: 225px;
+    font-size: 50px;
+    text-align: left;
+    margin-left: 116px;
   }
 }
 
@@ -195,14 +196,12 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 300px) {
   #titleHeader {
-    width: 225px;
-    font-size: 50px;
-    text-align: left;
-    margin-left: 116px;
+    margin-left: 75px;
+    width: 165px;
+    font-size: 35px;
   }
-}
 
 
 .social-icons {
