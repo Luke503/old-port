@@ -169,8 +169,6 @@
 @media (min-width: 768px) {
   #verticalline {
     margin-left: 22px;
-    font-size: 50px;
-    width: 220px;
   }
 }
 
@@ -197,7 +195,7 @@
 @media (min-width: 768px) {
   #titleHeader {
     width: 275px;
-    font-size: px;
+    font-size: 50px;
     text-align: left;
     margin-left: 116px;
   }
