@@ -178,6 +178,14 @@
   }
 }
 
+@media (min-width: 300px) {
+  #titleHeader {
+    margin-left: 75px;
+    width: 200px;
+    font-size: 35px;
+  }
+}
+
 @media (min-width: 576px) {
   #titleHeader {
     margin-left: 143px;
@@ -187,7 +195,7 @@
 @media (min-width: 768px) {
   #titleHeader {
     width: 275px;
-    font-size: 35px;
+    font-size: px;
     text-align: left;
     margin-left: 116px;
   }
