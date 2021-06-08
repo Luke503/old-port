@@ -36,8 +36,6 @@
   }
 }
 
-#social_vertical {
-}
 
 @media (min-width: 300px), (min-width: 576px) {
   #projects {
@@ -178,30 +176,22 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   #titleHeader {
-    width: 225px;
+    width: 200px;
     font-size: 50px;
     text-align: left;
     margin-left: 116px;
   }
 }
 
-@media (min-width: 576px) {
-  #titleHeader {
-    margin-left: 143px;
-    width: 225px;
-    font-size: 50px;
-    text-align: left;
-  }
-}
-
 @media (min-width: 300px) {
   #titleHeader {
     margin-left: 75px;
-    width: 185px;
+    width: 182px;
     font-size: 35px;
   }
+}
 
 
 .social-icons {
