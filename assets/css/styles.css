@@ -183,23 +183,13 @@ button {
 @media (min-width: 576px) {
   #titleHeader {
     margin-left: 143px;
-    font-size: 40px;
-  }
-}
-
-@media (min-width: 300px) {
-  #titleHeader {
-    font-size: 35px;
-    width: 180px;
-    margin-left: 72px;
-    text-align: center;
   }
 }
 
 @media (min-width: 768px) {
   #titleHeader {
-    width: 230px;
-    font-size: 50px;
+    width: 275px;
+    font-size: 60px;
     text-align: left;
     margin-left: 116px;
   }
@@ -238,7 +228,7 @@ button {
 }
 
 .footer-basic .copyright {
-  margin-top: -50px;
+  margin-top: 15px;
   text-align: center;
   font-size: 13px;
   color: rgb(226, 226, 226);
