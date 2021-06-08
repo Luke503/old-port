@@ -119,7 +119,7 @@ button {
 
 @media (min-width: 300px) {
   #phoneline {
-    width: 420px;
+    width: 375px;
   }
 }
 
@@ -180,6 +180,22 @@ button {
   }
 }
 
+@media (min-width: 576px) {
+  #titleHeader {
+    margin-left: 143px;
+    font-size: 40px;
+    width: 300px;
+  }
+}
+
+@media (min-width: 300px) {
+  #titleHeader {
+    font-size: 35px;
+    width: 180px;
+    margin-left: 72px;
+    text-align: center;
+  }
+}
 
 @media (min-width: 768px) {
   #titleHeader {
@@ -189,25 +205,6 @@ button {
     margin-left: 116px;
   }
 }
-
-@media (min-width: 576px) {
-  #titleHeader {
-    margin-left: 143px;
-    font-size: 35px;
-    width: 300px;
-    text-align: center;
-  }
-}
-
-@media (min-width: 300px) {
-  #titleHeader {
-    font-size: 35px;
-    width: 180px;
-    margin-left: 90px;
-    text-align: center;
-  }
-}
-
 
 .social-icons {
   color: #d1d1d1;
@@ -259,7 +256,7 @@ button {
   }
 }
 
-@media (max-width:576px) {
+@media (max-width:300px, max-width:576px) {
   .copyright {
     display: none;
   }
