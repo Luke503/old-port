@@ -189,7 +189,7 @@
 @media (min-width: 576px) {
   #titleHeader {
     margin-left: 143px;
-    width: 230px;
+    width: 225px;
     font-size: 50px;
     text-align: left;
   }
@@ -197,7 +197,7 @@
 
 @media (min-width: 768px) {
   #titleHeader {
-    width: 230px;
+    width: 225px;
     font-size: 50px;
     text-align: left;
     margin-left: 116px;
