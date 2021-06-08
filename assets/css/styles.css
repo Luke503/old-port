@@ -180,11 +180,30 @@ button {
   }
 }
 
+@media (min-width: 1024px) {
+  #titleHeader {
+    width: 230px;
+    font-size: 50px;
+    text-align: left;
+    margin-left: 116px;
+  }
+}
+
+@media (min-width: 768px) {
+  #titleHeader {
+    width: 230px;
+    font-size: 50px;
+    text-align: left;
+    margin-left: 116px;
+  }
+}
+
 @media (min-width: 576px) {
   #titleHeader {
     margin-left: 143px;
-    font-size: 40px;
+    font-size: 35px;
     width: 300px;
+    text-align: center;
   }
 }
 
@@ -197,14 +216,6 @@ button {
   }
 }
 
-@media (min-width: 768px) {
-  #titleHeader {
-    width: 230px;
-    font-size: 50px;
-    text-align: left;
-    margin-left: 116px;
-  }
-}
 
 .social-icons {
   color: #d1d1d1;
