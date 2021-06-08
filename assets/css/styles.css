@@ -201,6 +201,16 @@
   }
 }
 
+
+@media (min-width: 1024px) {
+  #titleHeader {
+    width: 230px;
+    font-size: 50px;
+    text-align: left;
+    margin-left: 116px;
+  }
+}
+
 .social-icons {
   color: #d1d1d1;
   background-color: #fff;
