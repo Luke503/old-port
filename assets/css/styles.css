@@ -246,3 +246,14 @@ button {
   margin-bottom: 0;
 }
 
+@media (max-width:767px) {
+  .copyright {
+    display: block;
+  }
+}
+
+@media (max-width:300px, max-width:567px) {
+  .copyright {
+    display: none;
+  }
+}
