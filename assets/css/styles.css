@@ -236,6 +236,10 @@ button {
   padding: 40px 0;
   background-color: #ffffff;
   color: #c0c0c0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer-basic .copyright {
