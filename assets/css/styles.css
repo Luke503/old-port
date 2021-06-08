@@ -182,8 +182,8 @@ button {
 
 @media (min-width: 1024px) {
   #titleHeader {
-    width: 430px;
-    font-size: 40px;
+    width: 230px;
+    font-size: 50px;
     text-align: left;
     margin-left: 116px;
   }
@@ -211,7 +211,7 @@ button {
   #titleHeader {
     font-size: 35px;
     width: 180px;
-    margin-left: 100px;
+    margin-left: 90px;
     text-align: center;
   }
 }
