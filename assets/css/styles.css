@@ -122,15 +122,15 @@ button {
   }
 }
 
-@media (min-width: 300px) {
-  #phoneline {
-    width: 375px;
-  }
-}
-
 @media (min-width: 576px) {
   #phoneline {
     width: 576px;
+  }
+}
+
+@media (min-width: 300px) {
+  #phoneline {
+    width: 400px;
   }
 }
 
