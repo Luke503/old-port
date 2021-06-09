@@ -94,19 +94,6 @@
   }
 }
 
-@media (min-width: 768px) {
-  #phoneicons {
-    display: none;
-  }
-}
-
-@media (min-width: 300px) {
-  #phoneicons {
-    text-align: center;
-    width: 375px;
-  }
-}
-
 @media (min-width: 576px) {
   #phoneline {
     width: 576px;
@@ -157,13 +144,6 @@
   }
 }
 
-@media (min-width: 576px) {
-  #phoneicons {
-    margin-left: 8px;
-    width: 490px;
-  }
-}
-
 @media (min-width: 768px) {
   #verticalline {
     margin-left: 22px;
@@ -193,31 +173,6 @@
     margin-left: 116px;
   }
 
-.social-icons {
-  color: #d1d1d1;
-  background-color: #fff;
-  text-align: center;
-  padding: 70px 0;
-}
-
-@media (max-width:767px) {
-  .social-icons {
-    padding: 50px 0;
-  }
-}
-
-.social-icons i {
-  font-size: 32px;
-  display: inline-block;
-  color: #dbdbdb;
-  margin: 0 10px;
-  width: 60px;
-  height: 60px;
-  border: 1px solid #c8ced7;
-  text-align: center;
-  border-radius: 50%;
-  line-height: 60px;
-}
 
 .footer-basic {
   padding: 40px 0;
