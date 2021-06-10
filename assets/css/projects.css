@@ -1,0 +1,16 @@
+
+
+.headertext {
+    color: #ff6d64;
+}
+
+/* .buttons {
+    color: #ff6d64;
+} */
+
+img {
+    float: left;
+    height: 275px;
+    width: 350px;
+    object-fit: cover;
+}
