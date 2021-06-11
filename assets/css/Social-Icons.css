@@ -3,6 +3,8 @@
   background-color: #fff;
   text-align: center;
   padding: 70px 0;
+  display: block;
+  
 }
 
 @media (min-width:300px) {
@@ -31,4 +33,6 @@
   border-radius: 50%;
   line-height: 60px;
 }
+
+
 

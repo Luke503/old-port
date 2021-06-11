@@ -71,6 +71,7 @@
 
 @media (min-width: 768px) {
   #headingbutton1 {
+    margin-top: 5px;
     display: block;
     border-width: 1px;
   }
@@ -86,6 +87,7 @@
 
 @media (min-width: 768px) {
   #headingbutton2 {
+    margin-top: 5px;
     display: block;
     border-width: 1px;
   }
