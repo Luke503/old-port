@@ -1,54 +1,89 @@
-<!-- <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Untitled</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.3.css">
-    <link rel="stylesheet" href="assets/css/projects.css">
+    <title>cards</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Asap+Condensed">
+    <link rel="stylesheet" href="assets/css/project-crads.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+
 </head>
 
-<body>
-    <main class="page service-page">
-        <section class="clean-block clean-services dark">
-            <div class="container">
-                <div class="block-heading">
-                    <h2 class="headertext">Projects</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
+<header>
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+        <!-- <div class="container"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button> -->
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <div class="row d-inline-flex justify-content-center align-content-center mx-auto justify-content-lg-center">
+                    <div class="col-md-12 offset-md-6 offset-lg-8 mx-auto">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item mx-auto" id="navtext"><a class="nav-link" href="index.html" style="font-family: 'Asap Condensed', sans-serif;">Home</a></li>                        
+                        </ul>
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card"><img class="card-img-top w-100 d-block" src="assets/img/ecoswap.jpeg">
-                            <div class="card-body">
-                                <h4 class="card-title">Eco Swap</h4>
-                                <p class="card-text">EcoSwap is an online thrifting experience that helps save users money and the environment.</p>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <section>
+        <div class="container" style="padding-top: 50px;padding-bottom: 0px;">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="blog-card blog-card-blog">
+                        <div class="blog-card-image"><a href="#"><img class="img-fluid img" src="assets/img/poach.png"></a>
+                            <div class="ripple-cont"></div>
+                        </div>
+                        <div class="blog-table">
+                            <p class="blog-card-description" style="font-family: 'Asap Condensed', sans-serif;padding-top: 20px;">Local Poach</p>
+                            <p class="blog-card-description" style="font-family: 'Asap Condensed', sans-serif;">An extension that recommends small local restaurants in your area at the top of your page, to combat chain dominance in SEO.</p>
+                            <hr>
+                            <div class="d-lg-flex justify-content-lg-center ftr">
+                                <div class="cardlink"><a href="https://devpost.com/software/localpoach" target="_blank"><span style="font-family: 'Asap Condensed', sans-serif;">Learn More</span></a></div>
+                                <div class="stats"></div>
                             </div>
-                            <div><button class="btn btn-outline-primary btn-sm" type="button">Learn More</button></div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card"><img class="card-img-top w-100 d-block" src="assets/img/WikiScrape.jpeg">
-                            <div class="card-body">
-                                <h4 class="card-title">WikiScrape</h4>
-                                <p class="card-text">WikiScrap is a custom search engine that pulls data from the Wikipedia API and dispalys it on the UI in multiple languages.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog-card blog-card-blog">
+                        <div class="blog-card-image"><a href="#"><img class="img-fluid img" src="assets/img/eco.png"></a>
+                            <div class="ripple-cont"></div>
+                        </div>
+                        <div class="blog-table">
+                            <p class="blog-card-description" style="font-family: 'Asap Condensed', sans-serif;padding-top: 20px;">Eco Swap</p>
+                            <p class="blog-card-description" style="font-family: 'Asap Condensed', sans-serif;">A web app & google chrome extension that refernces your online shopping to the etsy API to find more sustainable alternatives.</p>
+                            <hr>
+                            <div class="d-lg-flex justify-content-lg-center ftr">
+                                <div class="cardlink"><a href="https://devpost.com/software/ecoswap" target="_blank"><span style="font-family: 'Asap Condensed', sans-serif;">Learn More</span></a></div>
+                                <div class="stats"></div>
                             </div>
-                            <div><button class="btn btn-outline-primary btn-sm" type="button">Learn More</button></div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card"><img class="card-img-top w-100 d-block" src="assets/img/localpoach.jpeg">
-                            <div class="card-body">
-                                <h4 class="card-title">Local Poach</h4>
-                                <p class="card-text">Local Poach is an extension that recommends small local restaurants in your area to combat chain dominance.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog-card blog-card-blog">
+                        <div class="blog-card-image"><a href="#"><img class="img-fluid img" src="assets/img/wiki.png"></a>
+                            <div class="ripple-cont"></div>
+                        </div>
+                        <div class="blog-table">
+                            <p class="blog-card-description" style="font-family: 'Asap Condensed', sans-serif;padding-top: 20px;">WikiScrape</p>
+                            <p class="blog-card-description" style="font-family: 'Asap Condensed', sans-serif;">WikiScrape is a web application that takes input and returns text (Wiki API) in multiple languages (Google translate API).</p>
+                            <hr>
+                            <div class="d-lg-flex justify-content-lg-center ftr">
+                                <div class="cardlink"><a href="https://github.com/Luke503/CS-361-WikiScrape" target="_blank"><span style="font-family: 'Asap Condensed', sans-serif;">Learn More</span></a></div>
+                                <div class="stats"></div>
                             </div>
-                            <div><button class="btn btn-outline-primary btn-sm" type="button">Learn More</button></div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 
-</html> -->
+</html>

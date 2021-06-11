@@ -1,6 +1,3 @@
-.icon-doc {
-  test: test;
-}
 
 
 @media (min-width: 300px) {
@@ -18,6 +15,7 @@
   left: 28px;
   top: 40%;
 }
+
 
 #social_vertical > a:hover {
   color: gray !important;
@@ -66,7 +64,8 @@
 
 @media (min-width: 300px), (min-width: 576px) {
   #headingbutton {
-    display: none;
+    display: block;
+    border-width: 1px;
   }
 }
 
