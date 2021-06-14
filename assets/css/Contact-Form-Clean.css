@@ -1,8 +1,7 @@
 .contact-clean {
   background: #f1f7fc;
-  padding-top: 120px;
+  padding-top: 90px;
   padding-bottom: 175px;
-  font-family: Asap Condensed, sans-serif;
 }
 
 @media (max-width:767px) {
@@ -87,6 +86,6 @@
 }
 
 #sendbutton {
-  background-color: #ff5950;
-  color: #ffffff;
+  background-color: #ff4f46;
+  color: white;
 }
