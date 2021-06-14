@@ -6,8 +6,9 @@
 
 @media (max-width:767px) {
   .contact-clean {
-    padding: 20px 0;
-  }
+    padding-top: 200px;
+    padding-bottom: 200px;
+    }
 }
 
 .contact-clean form {
