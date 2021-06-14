@@ -64,7 +64,7 @@
 @media (min-width: 300px), (min-width: 576px) {
   #headingbutton1 {
     margin-top: 50px;
-    display: block;
+    display: none;
     border-width: 1px;
     text-align: center;
   }
@@ -73,7 +73,7 @@
 @media (min-width: 768px) {
   #headingbutton1 {
     margin-top: 5px;
-    display: none;
+    display: block;
     justify-content: center;
     border-width: 1px;
   }
