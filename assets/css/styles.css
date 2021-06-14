@@ -9,6 +9,11 @@
   }
 }
 
+/* #home {
+  display: flex;
+  justify-content: center;
+} */
+
 #social_vertical {
   position: fixed;
 }

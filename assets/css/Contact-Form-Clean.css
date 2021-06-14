@@ -35,10 +35,8 @@
   color: inherit;
 }
 
-@media (max-width:500px) {
-  .form-control {
-    width: 75%;
-  }
+.form-control {
+  width: 100%;
 }
 
 .contact-clean form .form-control {
