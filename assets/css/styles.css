@@ -63,15 +63,18 @@
 
 @media (min-width: 300px), (min-width: 576px) {
   #headingbutton1 {
-    display: none;
+    margin-top: 50px;
+    display: block;
     border-width: 1px;
+    text-align: center;
   }
 }
 
 @media (min-width: 768px) {
   #headingbutton1 {
     margin-top: 5px;
-    display: block;
+    display: none;
+    justify-content: center;
     border-width: 1px;
   }
 }
@@ -79,8 +82,9 @@
 @media (min-width: 300px), (min-width: 576px) {
   #headingbutton2 {
     margin-top: 50px;
-    display: inline-block;
+    display: block;
     border-width: 1px;
+    margin-right: 75px;
   }
 }
 
