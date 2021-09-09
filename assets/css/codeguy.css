@@ -1,0 +1,23 @@
+
+  
+#codeguy {
+    width: 250px;
+    padding-bottom: 10px;
+    }
+}
+
+
+@media (min-width: 300px, max-width: 600px) {
+    #codeguy {
+        width: 100px;
+        margin-right: 100px;
+    }
+  }
+
+@media (min-width: 601px) {
+    #codeguy {
+        width: 250px;
+        margin-left: -210px;
+        padding-bottom: 10px;
+    }
+  }

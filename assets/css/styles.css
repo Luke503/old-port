@@ -131,6 +131,7 @@
 @media (min-width: 300px) {
   #phoneline {
     width: 415px;
+    margin-bottom: -100px;
   }
 }
 
@@ -227,3 +228,4 @@
     display: none;
   }
 }
+
