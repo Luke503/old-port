@@ -70,6 +70,20 @@
 }
 
 @media (min-width: 300px), (min-width: 576px) {
+  #titleHeader3 {
+    width: 250px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  #titleHeader3 {
+    width: 423px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 300px), (min-width: 576px) {
   #headingbutton1 {
     margin-top: 50px;
     display: none;
